@@ -4,19 +4,23 @@
 .header{
     background-color: #AA0601;
 }
-.hright{
+.hcont{
     width: 1296px;
-    height: 80px;
     margin: 0 auto;
+    /* height: 80px; */
     display: flex;
     justify-content: space-between;
+}
+.hcont img{
+    width: 80px;
+    height: 48px;
+    display: inline-block;
+    padding-top: 16px;
 }
 .hright ul{
     display: flex;
 }
-.hright ul li{
-    /* margin-left: 64px; */
-}
+
 .hright a{
     display: inline-block;
     color: #fff;
@@ -34,8 +38,83 @@
     margin: 0 auto;
     display: flex;
 }
-.header2 ul li{
+.header2 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    line-height: 96px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    display: inline-block;
     width: 430px;
-    height: 94px;
+    /* box-sizing: border-box; */
     border: 1px solid #DCDCDC;
+    border-bottom: 8px solid #DCDCDC;
+}
+.header2 a:hover{
+    border-bottom: 8px solid #AA0601;
+}
+.himg{
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 0;
+    vertical-align: bottom;
+    margin-bottom: 80px;
+}
+.content h2{
+    font-size: 42px;
+    line-height: 63px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.content p{
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.content .items{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content .event{
+    width: 306px;
+    margin-bottom: 80px;
+}
+.content .name{
+    display: flex;
+    justify-content: space-between;
+}
+.content .name p{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.content .name .pred{
+    color: #AA0601;
+    font-weight: bolder;
+}
+.content .event .color{
+    display: flex;
+}
+.content .event .brown, .content .event .orange{
+    width: 24px;
+    height: 24px;
+    border-radius: 20%;
+}
+.content .event .brown{
+    background-color: #5F3E2D;
+}
+.content .event .orange{
+    background-color: #B75929;
+    margin-left: 8px;
 }
