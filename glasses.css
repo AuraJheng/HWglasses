@@ -1,0 +1,41 @@
+*{
+    outline: 1px dotted #aaa;
+}
+.header{
+    background-color: #AA0601;
+}
+.hright{
+    width: 1296px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hright ul{
+    display: flex;
+}
+.hright ul li{
+    /* margin-left: 64px; */
+}
+.hright a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 112px;
+    font-size: 20px;
+    line-height: 80px;
+}
+.header2 {
+    display: flex;
+}
+.header2 ul{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+}
+.header2 ul li{
+    width: 430px;
+    height: 94px;
+    border: 1px solid #DCDCDC;
+}
