@@ -1,5 +1,5 @@
 *{
-    /* outline: 1px dotted #aaa; */
+    outline: 1px dotted #aaa;
 }
 .header{
     background-color: #AA0601;
@@ -210,9 +210,14 @@
     color: #fff;
     margin-left: 48px;
 }
-@media screen and (max-width:375px) {
+@media (max-width:768px) {
     .hcont, .header2 ul, .himg, .content .items, .page, .footertext{
-        width: 375px;
+        max-width: 768px;
+    }
+}
+@media (max-width:375.2px) {
+    .hcont, .header2 ul, .himg, .content .items, .page, .footertext{
+        max-width: 345px;
         margin: 0 auto;
     }
     .header .hcont{
@@ -221,13 +226,12 @@
         justify-content: center;
     }
     .header .hcont img{
-        width: 80px;
+        max-width: 80px;
         height: 48px;
         padding-top: 0px;
         margin: 12px 0;
     }
     .hcont .hright ul{
-        width: 375px;
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -235,22 +239,22 @@
     .hcont .hright a{
         font-size: 16px;
         line-height: 48px;
-        width: 185.5px;
+        width: 170.5px;
         text-align: center;
         display: inline-block;
         border: 1px solid #fff;
     }
     .header .header2{
-        width: 375px;
+        max-width: 345px;
         margin: 0 auto
     }
     .header2 a{
         font-size: 16px;
         line-height: 56px;
-        width: 123px;
+        max-width: 123px;
     }
     .himg{
-        width: 375px;
+        max-width: 34px   5px;
     }
     .himg img{
         max-width: 100%;
