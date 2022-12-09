@@ -1,5 +1,5 @@
 *{
-    outline: 1px dotted #aaa;
+    /* outline: 1px dotted #aaa; */
 }
 .header{
     background-color: #AA0601;
@@ -210,15 +210,15 @@
     color: #fff;
     margin-left: 48px;
 }
-@media (max-width:768px) {
+@media (max-width:769px) {
     .hcont, .header2 ul, .himg, .content .items, .page, .footertext{
         max-width: 768px;
+        margin: 0 auto;
     }
 }
-@media (max-width:375px) {
+@media (max-width:376px) {
     .hcont, .header2 ul, .himg, .content .items, .page{
         width: 375px;
-        margin: 0 auto;
     }
     .header .hcont{
         display: flex;
